@@ -28,7 +28,7 @@ namespace Performance.Extensions
         {
             var response = await base.SendAsync(request, cancellationToken);
 
-            if (request.Headers.AcceptEncoding != null)
+            if (request.Headers.AcceptEncoding != null && request.Headers.AcceptEncoding.Count() > 0) //request.RequestUri == "xxx"
             {
                 var encoding = request.Headers.AcceptEncoding.First();
 
