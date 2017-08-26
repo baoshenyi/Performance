@@ -17,6 +17,7 @@ C:\Source\Performance\Performance\bin\Antlr3.Runtime.dll
 C:\Source\Performance\Performance\bin\AutoMapper.dll
 C:\Source\Performance\Performance\bin\EntityFramework.dll
 C:\Source\Performance\Performance\bin\EntityFramework.SqlServer.dll
+C:\Source\Performance\Performance\bin\log4net.dll
 C:\Source\Performance\Performance\bin\Microsoft.AspNet.Identity.Core.dll
 C:\Source\Performance\Performance\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Source\Performance\Performance\bin\Microsoft.AspNet.Identity.Owin.dll
@@ -45,6 +46,7 @@ C:\Source\Performance\Performance\bin\System.Web.WebPages.dll
 C:\Source\Performance\Performance\bin\System.Web.WebPages.Razor.dll
 C:\Source\Performance\Performance\bin\WebGrease.dll
 C:\Source\Performance\Performance\bin\AutoMapper.xml
+C:\Source\Performance\Performance\bin\log4net.xml
 C:\Source\Performance\Performance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Source\Performance\Performance\bin\System.Web.Helpers.xml
 C:\Source\Performance\Performance\bin\System.Web.Mvc.xml
@@ -72,8 +74,5 @@ C:\Source\Performance\Performance\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Source\Performance\Performance\bin\Microsoft.Owin.Security.Google.xml
 C:\Source\Performance\Performance\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Source\Performance\Performance\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Source\Performance\Performance\obj\Debug\Performance.csprojResolveAssemblyReference.cache
 C:\Source\Performance\Performance\obj\Debug\Performance.dll
 C:\Source\Performance\Performance\obj\Debug\Performance.pdb
-C:\Source\Performance\Performance\bin\log4net.dll
-C:\Source\Performance\Performance\bin\log4net.xml

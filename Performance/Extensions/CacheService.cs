@@ -2,13 +2,13 @@
 using System;
 using System.Runtime.Caching;
 
-namespace MajorProjects.Data
+namespace Performance.Extensions
 {
     public interface ICacheService
     {
         T Get<T>(string key, Func<T> ifNotSetAddThis);
         T Get<T>(string key, Func<T> ifNotSetAddThis, int cacheInMinutes);
-        void Invalidate(string key);
+        void cleanCacheByKey(string key);
     }
 
     public class CacheService : ICacheService
@@ -66,7 +66,7 @@ namespace MajorProjects.Data
             cache.Add(new CacheItem(key, result), policyLastUpdate);
         }
 
-        public void Invalidate(string key)
+        public void cleanCacheByKey(string key)
         {
             //_logger.LogDebugMessage(this.GetType(), "Removing {0} from cache", key);
             lock (gate)

@@ -14,6 +14,7 @@ C:\Source\Performance\Performance.Tests\bin\Debug\Performance.Tests.dll.config
 C:\Source\Performance\Performance.Tests\bin\Debug\Performance.Tests.dll
 C:\Source\Performance\Performance.Tests\bin\Debug\Performance.Tests.pdb
 C:\Source\Performance\Performance.Tests\bin\Debug\AutoMapper.dll
+C:\Source\Performance\Performance.Tests\bin\Debug\log4net.dll
 C:\Source\Performance\Performance.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Source\Performance\Performance.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Source\Performance\Performance.Tests\bin\Debug\Newtonsoft.Json.dll
@@ -38,7 +39,9 @@ C:\Source\Performance\Performance.Tests\bin\Debug\System.Web.Http.WebHost.dll
 C:\Source\Performance\Performance.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 C:\Source\Performance\Performance.Tests\bin\Debug\System.Net.Http.Formatting.dll
 C:\Source\Performance\Performance.Tests\bin\Debug\Performance.pdb
+C:\Source\Performance\Performance.Tests\bin\Debug\Performance.dll.config
 C:\Source\Performance\Performance.Tests\bin\Debug\AutoMapper.xml
+C:\Source\Performance\Performance.Tests\bin\Debug\log4net.xml
 C:\Source\Performance\Performance.Tests\bin\Debug\Newtonsoft.Json.xml
 C:\Source\Performance\Performance.Tests\bin\Debug\System.Web.Helpers.xml
 C:\Source\Performance\Performance.Tests\bin\Debug\System.Web.Mvc.xml
@@ -61,6 +64,3 @@ C:\Source\Performance\Performance.Tests\bin\Debug\System.Net.Http.Formatting.xml
 C:\Source\Performance\Performance.Tests\obj\Debug\Performance.Tests.csprojResolveAssemblyReference.cache
 C:\Source\Performance\Performance.Tests\obj\Debug\Performance.Tests.dll
 C:\Source\Performance\Performance.Tests\obj\Debug\Performance.Tests.pdb
-C:\Source\Performance\Performance.Tests\bin\Debug\log4net.dll
-C:\Source\Performance\Performance.Tests\bin\Debug\Performance.dll.config
-C:\Source\Performance\Performance.Tests\bin\Debug\log4net.xml
