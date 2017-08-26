@@ -75,3 +75,5 @@ C:\Source\Performance\Performance\bin\Microsoft.Owin.Security.MicrosoftAccount.x
 C:\Source\Performance\Performance\obj\Debug\Performance.csprojResolveAssemblyReference.cache
 C:\Source\Performance\Performance\obj\Debug\Performance.dll
 C:\Source\Performance\Performance\obj\Debug\Performance.pdb
+C:\Source\Performance\Performance\bin\log4net.dll
+C:\Source\Performance\Performance\bin\log4net.xml

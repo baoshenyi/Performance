@@ -61,3 +61,6 @@ C:\Source\Performance\Performance.Tests\bin\Debug\System.Net.Http.Formatting.xml
 C:\Source\Performance\Performance.Tests\obj\Debug\Performance.Tests.csprojResolveAssemblyReference.cache
 C:\Source\Performance\Performance.Tests\obj\Debug\Performance.Tests.dll
 C:\Source\Performance\Performance.Tests\obj\Debug\Performance.Tests.pdb
+C:\Source\Performance\Performance.Tests\bin\Debug\log4net.dll
+C:\Source\Performance\Performance.Tests\bin\Debug\Performance.dll.config
+C:\Source\Performance\Performance.Tests\bin\Debug\log4net.xml

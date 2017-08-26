@@ -1,4 +1,5 @@
-﻿using System;
+﻿using log4net.Core;
+using System;
 using System.Runtime.Caching;
 
 namespace MajorProjects.Data
@@ -33,27 +34,27 @@ namespace MajorProjects.Data
 
             if (result != null)
             {
-                _logger.LogDebugMessage(this.GetType(), "Loading {0} from cache without lock", key);
+                //_logger.LogDebugMessage(this.GetType(), "Loading {0} from cache without lock", key);
                 return (T)result;
             }
             else
             {
                 lock (gate)
                 {
-                    _logger.LogDebugMessage(this.GetType(), "Loading {0} from cache", key);
+                    //_logger.LogDebugMessage(this.GetType(), "Loading {0} from cache", key);
                     cache = MemoryCache.Default;
                     result = cache[key];
                     if (result == null)
                     {
-                        _logger.LogDebugMessage(this.GetType(), "{0} was not found in cache", key);
+                        //_logger.LogDebugMessage(this.GetType(), "{0} was not found in cache", key);
                         result = ifNotSetAddThis();
                         var policyLastUpdate = new CacheItemPolicy() { AbsoluteExpiration = DateTimeOffset.Now.AddMinutes(cacheInMinutes) };
                         CacheByKey<T>(key, cache, result, policyLastUpdate);
-                        _logger.LogDebugMessage(this.GetType(), "{0} added to cache and will expire at {1}", key, policyLastUpdate.AbsoluteExpiration);
+                        //_logger.LogDebugMessage(this.GetType(), "{0} added to cache and will expire at {1}", key, policyLastUpdate.AbsoluteExpiration);
                     }
                     else
                     {
-                        _logger.LogDebugMessage(this.GetType(), "{0} was found in cache. Returning cached data", key);
+                        //_logger.LogDebugMessage(this.GetType(), "{0} was found in cache. Returning cached data", key);
                     }
                     return (T)result;
                 }
@@ -67,13 +68,13 @@ namespace MajorProjects.Data
 
         public void Invalidate(string key)
         {
-            _logger.LogDebugMessage(this.GetType(), "Removing {0} from cache", key);
+            //_logger.LogDebugMessage(this.GetType(), "Removing {0} from cache", key);
             lock (gate)
             {
                 if (MemoryCache.Default[key] != null)
                     MemoryCache.Default.Remove(key);
             }
-            _logger.LogDebugMessage(this.GetType(), "{0} removed from cache", key);
+            //_logger.LogDebugMessage(this.GetType(), "{0} removed from cache", key);
         }
     }
 }
