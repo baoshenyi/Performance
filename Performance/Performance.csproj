@@ -196,6 +196,7 @@
     <Compile Include="Extensions\DeflateCompressor.cs" />
     <Compile Include="Extensions\GZipCompressor.cs" />
     <Compile Include="Extensions\ICompressor.cs" />
+    <Compile Include="Extensions\LazyCache.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
